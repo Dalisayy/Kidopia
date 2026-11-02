@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidopia: Little Achievers</title>
+</head>
+<body>
+
+    <!-- 1. TITLE BANNER / HERO SECTION -->
+    <header>
+        <span>Welcome, Little Achievers! </span>
+        <h1>Kidopia: Little Achievers</h1>
+        <p>Let's step into a magical world of discovery! From the colors we see to the stars above us, an incredible adventure awaits. Are you ready to learn and play?</p>
+        <a href="#topics">Start Exploring! </a>
+    </header>
+
+    <!-- Navigation / Quick Jump Links -->
+    <nav id="topics">
+        <ul>
+            <li><a href="#colors-shapes">Colors & Shapes</a></li>
+            <li><a href="#animals">Animals & Nature</a></li>
+            <li><a href="#planets">The Planets</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#alpha-num">ABC & 123</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main>
+
+        <!-- TOPIC 1: COLORS AND SHAPES -->
+        <section id="colors-shapes">
+            <div>
+                <h2>Colors & Shapes Wonderland</h2>
+                <p>Everything around us is painted with wonderful colors and built with exciting shapes. Let's look closely at how they make our world so vibrant!</p>
+            </div>
+            
+            <div>
+                <div>
+                    <h3>Red</h3>
+                    <p>Red is the color of juicy strawberries, fire trucks, and sweet apples! It's an energetic color that catches our eye instantly.</p>
+                    <p><strong>Fun Fact:</strong> Fire trucks are painted red so they stand out brightly on the road!</p>
+                </div>
+
+		<div>
+                    <h3>Blue</h3>
+                    <p>Blue is the calm color of the vast ocean and clear daytime skies! It reminds us of cool water, gentle waves, and peaceful days.</p>
+                    <p><strong>Fun Fact:</strong> Blue is often called a "cool" color because looking at it can actually help you feel relaxed and calm!</p>
+
+                </div>
+
+                <div>
+                    <h3>Yellow</h3>
+                    <p>Yellow is the bright color of the warm sun, sweet bananas, and buzzing bumblebees! It always brings a sunny smile.</p>
+                    <p><strong>Fun Fact:</strong> Bananas are actually curved because they grow upwards toward the sun!</p>
+                </div>
+
+                <div>
+                    <h3>The Star Shape</h3>
+                    <p>Stars have sharp points and twinkle brightly in the night sky. Can you draw a star with five straight lines?</p>
+                    <p><strong>Fun Fact:</strong> Real stars in space are giant balls of glowing gas, shaped like giant spheres!</p>
+                </div>
+            </div>
+
+            <!-- Topic Wrap-up / Smooth Transition -->
+            <div>
+                <p> <strong>Great job exploring colors and shapes!</strong> Now that we see how bright our world looks, let's step outside and meet the amazing creatures who share this planet with us.</p>
+            </div>
+        </section>
+
+        <!-- TOPIC 2: ANIMALS OR NATURE -->
+        <section id="animals">
+            <div>
+                <h2>Amazing Animals & Nature</h2>
+                <p>Nature is full of life! From the tallest trees to the deepest oceans, let's meet some of the coolest creatures on Earth.</p>
+            </div>
+
+            <div>
+                <div>
+                    <h3>The Tall Giraffe</h3>
+                    <p>Giraffes are the tallest land animals in the world. Their long necks help them munch on the highest leaves in the trees.</p>
+                    <p><strong>Fun Fact:</strong> A giraffe's tongue is dark blue-purple and can grow up to 20 inches long!</p>
+                </div>
+
+                <div>
+                    <h3>The Playful Dolphin</h3>
+                    <p>Dolphins live in the ocean and are super smart swimmers. They love leaping through waves and talking to each other with clicks and whistles.</p>
+                    <p><strong>Fun Fact:</strong> Dolphins sleep with one eye open so they can watch out for danger!</p>
+                </div>
+
+                <div>
+                    <h3>The Busy Bee</h3>
+                    <p>Bees fly from flower to flower gathering sweet nectar to make delicious honey for their hives.</p>
+                    <p><strong>Fun Fact:</strong> Bees do a special waggle dance to tell other bees where the best flowers are!</p>
+                </div>
+            </div>
+
+            <!-- Topic Wrap-up / Smooth Transition -->
+            <div>
+                <p> <strong>Animals are truly incredible friends!</strong> But our adventure doesn't stop here on Earth—let's build a rocket ship and blast off into outer space!</p>
+            </div>
+        </section>
+
+        <!-- TOPIC 3: THE PLANETS -->
+        <section id="planets">
+            <div>
+                <h2>Journey Through Space (The Planets)</h2>
+                <p>3, 2, 1... Blast off! Let's take an amazing trip through our solar system and discover our planetary neighbors high above.</p>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Mars: The Red Planet</h3>
+                    <p>Mars is a dusty, cold desert world with a very thin atmosphere. It has giant volcanoes and deep canyons!</p>
+                    <p><strong>Fun Fact:</strong> Mars looks red because its soil is full of iron rust!</p>
+                </div>
+
+                <div>
+                    <h3>Saturn: The Ringed Beauty</h3>
+                    <p>Saturn is a giant gas planet surrounded by stunning rings made of billions of chunks of ice and rock.</p>
+                    <p><strong>Fun Fact:</strong> Saturn is so light that if you had a bathtub big enough, the planet would float in water!</p>
+                </div>
+
+                <div>
+                    <h3>Earth: Our Home</h3>
+                    <p>Earth is our home planet! It has deep blue oceans, green forests, fresh air, and everything we need to live and play.</p>
+                    <p><strong>Fun Fact:</strong> Earth is the only planet in our solar system known to have living creatures!</p>
+                </div>
+            </div>
+
+            <!-- Topic Wrap-up / Smooth Transition -->
+            <div>
+                <p> <strong>Space is vast and full of mystery!</strong> Now let's travel back down to Earth and look up at the shifting skies right above our heads.</p>
+            </div>
+        </section>
+
+        <!-- TOPIC 4: WEATHER -->
+        <section id="weather">
+            <div>
+                <h2>Wonderful Weather</h2>
+                <p>From bright sunny mornings to cozy rainy afternoons, the sky changes every single day to give us different kinds of weather!</p>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Sunny Days</h3>
+                    <p>The sun gives us bright light and cozy warmth. It's the perfect time to play outside in the park or go to the beach!</p>
+                    <p><strong>Tip:</strong> Always wear your hat and sunscreen when playing out in the bright sun!</p>
+                </div>
+
+                <div>
+                    <h3>Rainy Days</h3>
+                    <p>Raindrops fall from gray clouds to water thirsty plants and flowers so they can grow big and strong.</p>
+                    <p><strong>Fun Fact:</strong> Raindrops aren't teardrop-shaped—they actually look like tiny hamburger buns as they fall!</p>
+                </div>
+
+                <div>
+                    <h3>Rainbows</h3>
+                    <p>When the sun shines through falling raindrops, a magical arch of bright colors appears across the sky.</p>
+                    <p><strong>Fun Fact:</strong> Every rainbow is a complete circle, but from the ground, we can only see the top half!</p>
+                </div>
+            </div>
+
+            <!-- Topic Wrap-up / Smooth Transition -->
+            <div>
+                <p> <strong>Every type of weather makes nature unique!</strong> Now that we know about our world, let's practice the building blocks of reading and counting.</p>
+            </div>
+        </section>
+
+        <!-- TOPIC 5: ALPHABET AND NUMBERS -->
+        <section id="alpha-num">
+            <div>
+                <h2>ABCs & 123s Playground</h2>
+                <p>Letters build our words, and numbers help us count our favorite things. Learning them opens the door to endless stories and games!</p>
+            </div>
+
+            <div>
+                <div>
+                    <h3>A is for Apple, B is for Bear</h3>
+                    <p>Learning the alphabet helps us read magical storybooks and write letters to our best friends.</p>
+                    <div>
+                        <span>A</span>
+                        <span>B</span>
+                        <span>C</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Counting 1, 2, 3...</h3>
+                    <p>Numbers are everywhere! We use them to count toys, tell time, and measure how tall we are growing.</p>
+                    <div>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Topic Wrap-up / Final Conclusion -->
+            <div>
+                <p> <strong>Fantastic job completing the learning journey!</strong> You've explored colors, animals, space, weather, and numbers. Keep being curious and keep on learning!</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 3. FOOTER WITH GROUP NAMES -->
+    <footer>
+        <p>&copy; 2026 Kidopia: Little Achievers</p>
+       <p>Project Team: Bea Tenorio (Designer) | Rhian Hibe (Content & Structure) | Alexis Rabacio (Layout & Interactions) | Pristine Tagacay (Animations)</p>
+
+    </footer>
+
+</body>
+</html>
