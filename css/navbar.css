@@ -52,6 +52,7 @@ header.top-nav {
   padding: 5px 0;
   margin: 0;
   z-index: 1000;
+  border-radius: 12px;
 }
 
 .dropdown-menu li a {
