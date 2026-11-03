@@ -120,3 +120,13 @@ footer p {
   font-size: 0.85rem;
   color: #adb5bd;
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px;
+    scroll-snap-type: y proximity;
+}
+
+.info-section {
+    scroll-snap-align: start;
+    scroll-margin-top: 40px;
+}
