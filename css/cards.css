@@ -21,10 +21,6 @@
   pointer-events: none;
 }
 
-/* =================================
-   BASE SHAPE STYLING
-================================= */
-
 .shape {
   position: absolute;
   display: block;
@@ -35,8 +31,6 @@
 }
 
 /* RED CARD SHAPES */
-
-/* Circle */
 .shape.circle {
   width: 55px;
   height: 55px;
@@ -44,7 +38,6 @@
   border-radius: 50%;
 }
 
-/* Diamond */
 .shape.diamond {
   width: 42px;
   height: 42px;
@@ -53,7 +46,6 @@
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-/* Triangle */
 .shape.triangle {
   width: 0;
   height: 0;
@@ -62,7 +54,6 @@
   border-bottom: 50px solid #51cf66;
 }
 
-/* Star */
 .shape.star {
   width: 45px;
   height: 45px;
@@ -81,7 +72,6 @@
   );
 }
 
-/* Heart */
 .shape.heart {
   width: 45px;
   height: 45px;
@@ -100,7 +90,6 @@
   );
 }
 
-/* Hexagon */
 .shape.hexagon {
   width: 45px;
   height: 45px;
@@ -109,8 +98,6 @@
 }
 
 /* BLUE CARD SHAPES */
-
-/* Cloud */
 .shape.cloud {
   width: 60px;
   height: 35px;
@@ -239,7 +226,6 @@
 }
 
 /* Initial positions */
-
 .shape:nth-child(1) {
   top: 10%;
   left: -15px;
