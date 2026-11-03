@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #4dabf7;
+  --accent-yellow: #ffd43b;
+  --accent-green: #51cf66;
+  --dark-text: #2b3a4a;
+  --bg-sky: #e3fafc;
+}
+html * {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 60px;
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka", cursive, sans-serif;
+}
+
+body {
+  background-color: var(--bg-sky);
+  color: var(--dark-text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.hero-section,
+#colors-shapes,
+#weather,
+#alpha-num,
+#animals,
+#planets,
+#contact {
+  scroll-snap-align: start;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-top: 8px solid #339af0;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #1c7ed6;
+  margin-bottom: 10px;
+}
+
+/* COLORS SECTION */
+#colors-shapes {
+  background-color: #fff0f6;
+  border-top: 8px solid #c54242;
+}
+
+#colors-shapes h2 {
+  color: #cc1400;
+}
+
+/* ANIMALS SECTION */
+#animals {
+  background-color: #ebfbee;
+  border-top: 8px solid #89e077;
+}
+
+#animals h2 {
+  color: #6baa75;
+}
+
+/* PLANETS SECTION */
+#planets {
+  background-color: #e7f5ff;
+  border-top: 8px solid #339af0;
+}
+
+#planets h2 {
+  color: #1864ab;
+}
+
+/* WEATHERS SECTION */
+#weather {
+  background-color: #fff9db;
+  border-top: 8px solid #fcc419;
+}
+
+#weather h2 {
+  color: #e67700;
+}
+
+/* ALPHABETS SECTION */
+#alpha-num {
+  background-color: #f3d9fa;
+  border-top: 8px solid #cc5de8;
+}
+
+#alpha-num h2 {
+  color: #ae3ec9;
+}
+
+footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
+
+.team-credits {
+  font-size: 0.85rem;
+  color: #adb5bd;
+}

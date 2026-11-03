@@ -1,0 +1,84 @@
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  perspective: 1000px;
+}
+
+.thecard {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  transform-style: preserve-3d;
+  transition: transform 700ms ease;
+  pointer-events: none;
+}
+
+.thecard > .topic-item {
+  pointer-events: auto;
+}
+
+.card-container:hover .thecard {
+  transform: rotateY(180deg);
+}
+
+.front-card,
+.thecard > .topic-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 16px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front-card {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP6TRsjmqXbNTH6juWgfIqsTXov6hKx3ffbU91WbVmu2echN3sFKlm-Ie5HV2179W-OQ1es2RB8h6Ljtt_CWiIkdVztehl3JasUoSM3B1EgZIJSjIz2xPgydZRh1x6_HJg_XcDxRvwLXfC/s600/bg_ground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotateY(0deg);
+}
+
+.thecard > .topic-item {
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #e9ecef;
+  transform: rotateY(180deg);
+  overflow-y: auto;
+}
+
+.topic-item {
+  background: #ffffff;
+  border: 2px solid #e9ecef;
+}
+
+.topic-item h3 {
+  color: #343a40;
+  margin-bottom: 8px;
+}
+
+.fun-fact {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #0ca678;
+  font-weight: 600;
+}
+
+.transition-note {
+  margin-top: 20px;
+  background: #e7f5ff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #1864ab;
+}
