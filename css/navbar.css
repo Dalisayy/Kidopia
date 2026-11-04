@@ -18,14 +18,11 @@ header.top-nav {
 }
 
 .logo-placeholder {
-  font-weight: 700;
-  font-size: 1.2rem;
-  background: white;
-  color: #339af0;
-  padding: 4px 12px;
   border-radius: 20px;
 }
-
+.logo-placeholder img {
+  width: 118px;
+}
 .nav-links {
   display: flex;
   gap: 20px;
