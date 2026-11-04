@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url('../bgimg/1.png');
+  background-image: url("../bgimg/1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,7 +11,6 @@
   align-items: flex-start;
   position: relative;
   text-align: center;
-
 }
 
 .hero-title-box {
