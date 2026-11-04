@@ -5,25 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kidopia: Little Achievers</title>
-  <!-- Google Fonts -->
+  <!-- yung gugel fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet" />
-  <!-- Font Awesome -->
+  <!-- yung fontawesome para sa icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-  <!-- CSS Styles -->
+  <!-- yung animate on scroll para sa pangtamad na animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- css styles inorganize q n guys -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/herosection.css">
   <link rel="stylesheet" href="css/cards.css">
   <link rel="stylesheet" href="css/scrollbuttons.css">
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/progressbar.css">
+
 </head>
 
 <body>
 
   <div id="top"></div>
 
-  <!-- Navigation -->
+  <!-- navbar natin -->
   <header class="top-nav">
+    <!-- gawa tayo progress bar -->
+    <div class="scroll-progress" id="scrollProgress">
+      <div class="scroll-progress-bar" id="progressBar"></div>
+    </div>
+
     <a href="#" style="text-decoration: none;">
       <div class="logo-placeholder">Kidopia 🌟</div>
     </a>
@@ -45,6 +54,8 @@
       <li><a href="#contact">Contact Us</a></li>
     </ul>
   </header>
+
+  <!-- landing page naten -->
   <div class="hero-section" id="topics">
     <div class="hero-title-box">
       <h1>
@@ -54,8 +65,7 @@
       </h1>
     </div>
 
-    <!-- 1. TITLE BANNER / HERO SECTION -->
-    <div class="info-card">
+    <div class="info-card" data-aos="fade-down" data-aos-delay="500" data-aos-easing="ease-in">
       <p>
         Welcome, Little Achievers! Let's step into a magical world of
         discovery! From the colors we see to the stars above us, an incredible
@@ -63,38 +73,39 @@
       </p>
     </div>
 
-    <a class="start" href="#colors-shapes">Start learning!</a>
+    <a class="start" href="#colors-shapes" data-aos="fade-up" data-aos-delay="750" data-aos-easing="ease-in">Start
+      learning!</a>
 
     <div class="category-grid">
-      <div class="cat-card-container">
+      <div class="cat-card-container" data-aos="zoom-in-up" data-aos-delay="1000" data-aos-easing="ease-in">
         <a href="#colors-shapes" class="cat-card card-colors">
           <img src="assets/img/1.png" alt="">
           <h3>Colors & Shapes</h3>
           <span>Play now</span>
         </a>
       </div>
-      <div class="cat-card-container">
+      <div class="cat-card-container" data-aos="zoom-in-up" data-aos-delay="1100" data-aos-easing="ease-in">
         <a href="#weather" class="cat-card card-weather">
           <img src="assets/img/2.png" alt="">
           <h3>The Weathers</h3>
           <span>Let's explore!</span>
         </a>
       </div>
-      <div class="cat-card-container">
+      <div class="cat-card-container" data-aos="zoom-in-up" data-aos-delay="1200" data-aos-easing="ease-in">
         <a href="#alpha-num" class="cat-card card-alpha">
           <img src="assets/img/3.png" alt="">
           <h3>Alphabet & Numbers</h3>
           <span>Start counting</span>
         </a>
       </div>
-      <div class="cat-card-container">
+      <div class="cat-card-container" data-aos="zoom-in-up" data-aos-delay="1300" data-aos-easing="ease-in">
         <a href="#animals" class="cat-card card-animals">
           <img src="assets/img/4.png" alt="">
           <h3>Animals & Nature</h3>
           <span>Meet the animals</span>
         </a>
       </div>
-      <div class="cat-card-container">
+      <div class="cat-card-container" data-aos="zoom-in-up" data-aos-delay="1400" data-aos-easing="ease-in">
         <a href="#planets" class="cat-card card-planets">
           <img src="assets/img/5.png" alt="">
           <h3>The Planets</h3>
@@ -104,9 +115,9 @@
     </div>
   </div>
 
-  <!-- Main Content Container -->
+  <!-- Dito yung mga magiging content natin-->
   <main>
-    <!-- TOPIC 1: COLORS AND SHAPES -->
+    <!-- colors tsaka shapes -->
     <section id="colors-shapes">
       <h2>Colors & Shapes Wonderland</h2>
       <p>
@@ -116,7 +127,6 @@
       </p>
 
       <div class="topic-grid">
-
         <div class="card-container">
           <div class="shape-burst">
             <span class="shape circle"></span>
@@ -127,11 +137,11 @@
             <span class="shape hexagon"></span>
           </div>
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
 
             <div class="topic-item">
-              <!-- back of the card -->
               <h3>Red</h3>
               <p>
                 Red is the color of juicy strawberries, fire trucks, and sweet
@@ -156,11 +166,11 @@
             <span class="shape diamond"></span>
           </div>
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
 
             <div class="topic-item">
-              <!-- back of the card -->
               <h3>Blue</h3>
               <p>
                 Blue is the calm color of the vast ocean and clear daytime
@@ -185,11 +195,11 @@
             <span class="shape hexagon"></span>
           </div>
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
 
             <div class="topic-item">
-              <!-- back of the card -->
               <h3>Yellow</h3>
               <p>
                 Yellow is the bright color of the warm sun, sweet bananas, and
@@ -203,7 +213,6 @@
           </div>
         </div>
       </div>
-      <!-- Topic Wrap-up / Smooth Transition -->
       <div class="transition-note">
         <p>
           <strong>Great job exploring colors and shapes!</strong> Now that we
@@ -213,7 +222,7 @@
       </div>
     </section>
 
-    <!-- TOPIC 2: ANIMALS OR NATURE -->
+    <!-- animals tsaka nature -->
     <section id="animals">
       <h2>Amazing Animals & Nature</h2>
       <p>
@@ -223,9 +232,31 @@
 
       <div class="topic-grid">
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/animals/1.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/15.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/3.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/4.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/5.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/18.png" alt="">
+            </span>
+          </div>
+
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
             <div class="topic-item">
               <h3>The Tall Giraffe</h3>
               <p>
@@ -241,9 +272,30 @@
         </div>
 
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/animals/17.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/8.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/9.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/10.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/11.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/12.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
             <div class="topic-item">
               <h3>The Playful Dolphin</h3>
               <p>
@@ -259,9 +311,30 @@
           </div>
         </div>
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/animals/13.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/14.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/2.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/16.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/7.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/animals/6.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
-            <div class="front-card"></div>
+            <div class="front-card">
+
+            </div>
             <div class="topic-item">
               <h3>The Busy Bee</h3>
               <p>
@@ -276,7 +349,6 @@
           </div>
         </div>
       </div>
-      <!-- Topic Wrap-up / Smooth Transition -->
       <div class="transition-note">
         <p>
           <strong>Animals are truly incredible friends!</strong> But our
@@ -286,7 +358,7 @@
       </div>
     </section>
 
-    <!-- TOPIC 3: THE PLANETS -->
+    <!-- planets -->
     <section id="planets">
       <h2>Journey Through Space (The Planets)</h2>
       <p>
@@ -296,8 +368,27 @@
 
       <div class="topic-grid">
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/planets/14.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/2.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/11.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/8.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/17.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/6.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Mars: The Red Planet</h3>
@@ -313,8 +404,27 @@
           </div>
         </div>
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/planets/7.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/12.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/16.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/1.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/9.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/13.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Saturn: The Ringed Beauty</h3>
@@ -330,8 +440,27 @@
           </div>
         </div>
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/planets/10.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/5.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/18.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/3.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/15.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/planets/4.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Earth: Our Home</h3>
@@ -347,7 +476,6 @@
           </div>
         </div>
       </div>
-      <!-- Topic Wrap-up / Smooth Transition -->
       <div class="transition-note">
         <p>
           <strong>Space is vast and full of mystery!</strong> Now let's travel
@@ -357,7 +485,7 @@
       </div>
     </section>
 
-    <!-- TOPIC 4: WEATHER -->
+    <!-- weathers -->
     <section id="weather">
       <h2>Wonderful Weather</h2>
       <p>
@@ -367,8 +495,27 @@
 
       <div class="topic-grid">
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/weathers/8.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/14.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/3.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/18.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/6.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/11.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Sunny Days</h3>
@@ -384,8 +531,27 @@
           </div>
         </div>
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/weathers/5.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/16.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/1.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/10.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/13.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/7.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Rainy Days</h3>
@@ -401,8 +567,27 @@
           </div>
         </div>
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/weathers/17.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/2.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/9.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/4.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/15.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/weathers/12.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>Rainbows</h3>
@@ -418,7 +603,6 @@
           </div>
         </div>
       </div>
-      <!-- Topic Wrap-up / Smooth Transition -->
       <div class="transition-note">
         <p>
           <strong>Every type of weather makes nature unique!</strong> Now that
@@ -428,7 +612,7 @@
       </div>
     </section>
 
-    <!-- TOPIC 5: ALPHABET AND NUMBERS -->
+    <!-- alpabhet and numbers -->
     <section id="alpha-num">
       <h2>ABCs & 123s Playground</h2>
       <p>
@@ -438,8 +622,27 @@
 
       <div class="topic-grid">
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/abc/8.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/3.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/11.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/5.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/12.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/2.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
-            <!-- flips the card -->
             <div class="front-card"></div>
             <div class="topic-item">
               <h3>A is for Apple, B is for Bear</h3>
@@ -452,6 +655,26 @@
         </div>
 
         <div class="card-container">
+          <div class="image-burst">
+            <span class="image-pop">
+              <img src="assets/img/abc/9.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/1.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/6.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/10.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/4.png" alt="">
+            </span>
+            <span class="image-pop">
+              <img src="assets/img/abc/7.png" alt="">
+            </span>
+          </div>
           <div class="thecard">
             <div class="front-card"></div>
             <div class="topic-item">
@@ -465,7 +688,6 @@
         </div>
       </div>
 
-      <!-- Topic Wrap-up / Final Conclusion -->
       <div class="transition-note">
         <p>
           <strong>Fantastic job completing the learning journey!</strong>
@@ -476,11 +698,34 @@
     </section>
   </main>
 
-  <!-- Contact Us Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Have questions? We'd love to hear from you!</p>
-    <p>Email: kidopia@example.com</p>
+  <!-- kontak me 0976037 ahie-->
+  <section id="contact" class="contact-section">
+
+    <div class="contact-header">
+      <h1>Let's Get in Touch!</h1>
+      <p>
+        Have questions, ideas, or suggestions? We'd love to hear from you!
+        Whether you need help exploring our website or want to share
+        your thoughts, we're always happy to listen. Don't hesitate
+        to reach out and let's make learning even more fun together!
+      </p>
+    </div>
+
+    <form class="contact-form" action="#" method="post">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
   </section>
 
   <!-- iskrol buttons ni pris -->
@@ -491,7 +736,7 @@
 
   <div id="bottom"></div>
 
-  <!-- 3. FOOTER WITH GROUP NAMES -->
+  <!-- 6 footer for me -->
   <footer>
     <p>&copy; 2026 Kidopia: Little Achievers</p>
     <p class="team-credits">
@@ -499,6 +744,38 @@
       | Alexis Rabacio (Layout & Interactions) | Pristine Tagacay (Animations)
     </p>
   </footer>
+
+
+  <script>
+    const header = document.querySelector(".top-nav");
+    const main = document.querySelector("main");
+    const progress = document.getElementById("scrollProgress");
+    const bar = document.getElementById("progressBar");
+
+    function updateProgress() {
+      const navH = header.offsetHeight;
+      const rect = main.getBoundingClientRect();
+
+      // is main currently under the navbar na ba?
+      const inMain = rect.top <= navH && rect.bottom > navH;
+      progress.classList.toggle("visible", inMain);
+
+      // how far we've scrolled sa main
+      const scrolled = navH - rect.top;
+      const total = rect.height - (window.innerHeight - navH);
+      const ratio = Math.min(Math.max(scrolled / total, 0), 1);
+      bar.style.transform = `scaleX(${ratio})`;
+    }
+
+    window.addEventListener("scroll", updateProgress, { passive: true });
+    window.addEventListener("resize", updateProgress);
+    updateProgress();
+  </script>
+  <!-- animate on scroll scirpt -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
