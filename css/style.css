@@ -19,6 +19,16 @@ html {
   scroll-snap-type: y proximity;
 }
 
+.section-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 #colors-shapes,
 #weather,
 #alpha-num,
@@ -26,12 +36,9 @@ html {
 #planets,
 #contact {
   scroll-snap-align: start;
-  scroll-margin-top: 80px;
-}
-main {
+  scroll-margin-top: 175px;
   max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 0 auto;
 }
 
 section {

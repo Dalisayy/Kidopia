@@ -12,6 +12,56 @@
     font-size: 48px;
   }
 }
+@media screen and (max-width: 850px) {
+  .section-bg {
+    height: auto;
+  }
+
+  #colors-shapes {
+    background-image: url(../bgimg/11.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #weather {
+    background-image: url(../bgimg/5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #alpha-num {
+    background-image: url(../bgimg/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #animals {
+    background-image: url(../bgimg/9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #planets {
+    background-image: url(../bgimg/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #colors-shapes,
+  #weather,
+  #alpha-num,
+  #animals,
+  #planets,
+  #contact {
+    scroll-margin-top: 40px;
+  }
+
+  section p {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hero-section {
