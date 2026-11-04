@@ -11,6 +11,12 @@ header.top-nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.menu-toggle,
+.menu-close-item,
+.nav-overlay {
+  display: none;
+}
+
 .logo-placeholder {
   font-weight: 700;
   font-size: 1.2rem;
