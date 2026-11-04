@@ -11,7 +11,7 @@
 }
 
 .hero-title-box {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 100%;
   font-size: 48px;
   font-weight: bold;
@@ -23,8 +23,22 @@
   margin: 0;
 }
 
+.start {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 14px 32px;
+  border-radius: 999px;
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  box-shadow: 0 6px 0 #c92a2a;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
 .hero-title-box h1 span {
-  font-size: 48px;
+  font-size: 80px;
   font-weight: inherit;
   display: inline;
 }
@@ -91,13 +105,19 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  margin-top: auto;
+  margin-top: 100px;
   padding-bottom: 40px;
   z-index: 2;
 }
 
 .cat-card-container {
+  min-width: 200px;
   max-width: 250px;
+}
+
+.cat-card img {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .cat-card {
