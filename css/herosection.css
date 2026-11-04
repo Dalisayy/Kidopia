@@ -1,5 +1,8 @@
 .hero-section {
-  background-color: #a5d8ff;
+  background-image: url('bgimg/1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 93.7vh;
   min-height: 85vh;
   padding: 40px 40px;
@@ -8,6 +11,7 @@
   align-items: flex-start;
   position: relative;
   text-align: center;
+
 }
 
 .hero-title-box {
