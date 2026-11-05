@@ -14,6 +14,10 @@
   overflow: visible;
 }
 
+.card-container .front-card {
+  overflow: hidden;
+}
+
 .shape-burst {
   position: absolute;
   inset: 0;
