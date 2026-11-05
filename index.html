@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kidopia: Little Achievers</title>
+  <!-- logo naten -->
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
   <!-- yung gugel fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet" />
   <!-- yung fontawesome para sa icons -->
@@ -21,8 +23,6 @@
   <link rel="stylesheet" href="css/progressbar.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/responsiveness.css">
-  <!-- favicon logo -->
-  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
       <div class="scroll-progress-bar" id="progressBar"></div>
     </div>
 
-    <!-- menu bar para sa responsiveness -->
+    <!-- menu bar para sa mobile view -->
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
       <i class="fa-solid fa-bars"></i>
     </button>
@@ -778,7 +778,7 @@
         </button>
         <div class="profile-pic">
           <img
-            src=""
+            src="https://www.shutterstock.com/image-illustration/funny-meme-cat-face-cartoon-260nw-2632268635.jpg"
             alt="">
         </div>
         <div class="bottom">
@@ -823,7 +823,7 @@
         </button>
         <div class="profile-pic">
           <img
-            src=""
+            src="https://cdn.displate.com/artwork/270x380/2024-01-08/1184061d7104bc53ee0c81603c5d1a14_78f5aad8db5c1b38999713cec8568c49.jpg"
             alt="">
         </div>
         <div class="bottom">
@@ -868,7 +868,7 @@
         </button>
         <div class="profile-pic">
           <img
-            src=""
+            src="https://cdn.displate.com/artwork/270x380/2024-01-08/1184061d7104bc53ee0c81603c5d1a14_78f5aad8db5c1b38999713cec8568c49.jpg"
             alt="">
         </div>
         <div class="bottom">
@@ -913,7 +913,7 @@
         </button>
         <div class="profile-pic">
           <img
-            src=""
+            src="https://media.tenor.com/NkREwRhR13cAAAAe/handshake-cat-meme.png"
             alt="">
         </div>
         <div class="bottom">
@@ -955,7 +955,7 @@
 
   <div id="bottom"></div>
 
-  <!-- 6 footer for me -->
+  <!-- put her -->
   <footer>
     <p>&copy; 2026 Kidopia: Little Achievers</p>
     <p class="team-credits">
@@ -1017,19 +1017,16 @@
     menuClose.addEventListener('click', closeMenu);
     navOverlay.addEventListener('click', closeMenu);
 
-    // Explore dropdown: toggle on click (mobile only)
     exploreDropdown.querySelector(':scope > a').addEventListener('click', () => {
       if (window.innerWidth <= 500) {
         exploreDropdown.classList.toggle('open');
       }
     });
 
-    // close the sidebar after tapping any real link
     navLinks.querySelectorAll('a[href]').forEach(link => {
       link.addEventListener('click', closeMenu);
     });
 
-    // close on Esc
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') closeMenu();
     });
