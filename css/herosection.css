@@ -89,7 +89,7 @@
 
 .start {
   display: inline-block;
-  margin: 80px auto;
+  margin: 10px auto 35px;
   padding: 14px 32px;
   border-radius: 999px;
   background: #ff6b6b;
@@ -247,4 +247,31 @@
   100% {
     transform: translateY(0);
   }
+}
+
+/* mascots ni bea */
+.hero-mascots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 25px 0 15px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.hero-mascots img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+}
+@keyframes mascotFloat {
+0%, 100% {
+transform: translateY(0);
+}
+
+50% {
+transform: translateY(-12px);
+    }
 }

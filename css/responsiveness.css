@@ -197,3 +197,9 @@
     visibility: visible;
   }
 }
+/* mascots ni bea */
+@media (max-width: 768px) {
+    .hero-mascots {
+        gap: 10px;
+    }
+}
