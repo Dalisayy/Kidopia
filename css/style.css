@@ -19,7 +19,8 @@ html {
   scroll-snap-type: y proximity;
 }
 
-.section-bg {
+.section-bg,
+.section-about-bg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +28,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  background-color: #87c7fc;
 }
 
 #colors-shapes,
@@ -34,7 +36,8 @@ html {
 #alpha-num,
 #animals,
 #planets,
-#contact {
+#contact,
+#about {
   scroll-snap-align: start;
   scroll-margin-top: 175px;
   max-width: 1000px;
@@ -111,7 +114,6 @@ footer {
   color: white;
   text-align: center;
   padding: 30px 20px;
-  margin-top: 60px;
 }
 
 footer p {

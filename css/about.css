@@ -1,0 +1,8 @@
+.about-section {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  text-align: left;
+}

@@ -17,6 +17,12 @@
     height: auto;
   }
 
+  section h2 {
+    background-color: #fdfdfd;
+    padding: 20px;
+    text-decoration: underline;
+  }
+
   #colors-shapes {
     background-image: url(../bgimg/11.png);
     background-size: cover;
@@ -84,6 +90,10 @@
   header.top-nav {
     justify-content: flex-start;
     gap: 12px;
+  }
+
+  .hero-title-box h1 span {
+    font-size: 30px;
   }
 
   /* hamburger button */
