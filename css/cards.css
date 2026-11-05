@@ -487,10 +487,7 @@
 }
 
 .front-card {
-  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP6TRsjmqXbNTH6juWgfIqsTXov6hKx3ffbU91WbVmu2echN3sFKlm-Ie5HV2179W-OQ1es2RB8h6Ljtt_CWiIkdVztehl3JasUoSM3B1EgZIJSjIz2xPgydZRh1x6_HJg_XcDxRvwLXfC/s600/bg_ground.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #fffff0;
   transform: rotateY(0deg);
 }
 
